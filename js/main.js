@@ -55,7 +55,7 @@ export const displayMeals =  (meals)=>{
 export let details=$('#rowData').on('click', '.meal', function() {
     const mealId = $(this).data('id');    
     localStorage.setItem('mealId', mealId);
-    window.location.href = '../mealDetails.html';
+    window.location.href = './mealDetails.html';
 });
 
 // export let loading=()=>{
